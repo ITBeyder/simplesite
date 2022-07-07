@@ -1,9 +1,9 @@
 deployment:
   name: "simplesite"
   image: "itaybeyder/simplesite"
-  tag: 2
+  tag: 1
   replicas: 1
-  containerport: 8082
+  containerport: 8081
 namespace: "simplesite"
 ingress:
   host: simplesite.co.il
