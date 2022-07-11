@@ -1,7 +1,7 @@
 deployment:
   name: "simplesite"
   image: "itaybeyder/simplesite"
-  tag:  1
+  tag: 1
   replicas: 1
   containerport: 8081
 namespace: "simplesite"
